@@ -5,6 +5,9 @@ Backup youtube playlists to markdown
 ## Usage
 
 ```bash
+node index.js  --apikey API_KEY --channel CHANNEL_ID
+
+# OR, if you've run 'yarn build'
 ./youtubebkp --apikey API_KEY --channel CHANNEL_ID
 ```
 
@@ -31,6 +34,8 @@ yarn
 ```
 
 ### Build
+
+The build takes quite a while as it bundles all used node_modules etc into a single javascript file.
 
 ```bash
 yarn build
