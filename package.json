@@ -1,0 +1,16 @@
+{
+  "name": "youtubebkp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build --target=node --bundle-node-modules --no-source-maps index.js && chmod +x dist/index.js && mv dist/index.js youtubebkp"
+  },
+  "dependencies": {
+    "googleapis": "^52.1.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "parcel-plugin-shebang": "^1.2.9"
+  }
+}
