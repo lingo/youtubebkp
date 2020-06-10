@@ -76,6 +76,10 @@ function usage() {
 
 // Make sure the client is loaded and sign-in is complete before calling this method.
 async function main(args) {
+	if (args.h || args.help) {
+		usage();
+	}
+
 	if (!args.apikey || !args.channel) {
 		usage();
 	}
