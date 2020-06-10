@@ -4,7 +4,9 @@ Backup youtube playlists to markdown
 
 ## Usage
 
+```bash
 ./youtubebkp --apikey API_KEY --channel CHANNEL_ID
+```
 
 **API_KEY** can be created in the [Google API console](https://console.developers.google.com/apis/credentials)
 
